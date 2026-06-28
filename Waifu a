@@ -1,0 +1,104 @@
+{
+  "name": "Silver Waifu Aesthetic",
+  "description": "Refined icy anime waifu theme with silver-white tones, vibrant blue eye accents, and cinematic UI contrast",
+  "authors": [
+    {
+      "name": "fh7k",
+      "id": "1502926408446509066"
+    }
+  ],
+  "spec": 2,
+
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#4DA9FF2A"],
+    "MENTION_BACKGROUND": ["#4DA9FF"],
+    "TEXT_MENTION": ["#4DA9FF"],
+    "TEXT_DEFAULT": ["#F3F7FF"],
+
+    "INPUT_BACKGROUND": ["#0A0D12"],
+
+    "CHANNEL_ICON": ["#EAF2FF"],
+
+    "INTERACTIVE_NORMAL": ["#8CC7FF"],
+    "INTERACTIVE_HOVER": ["#CFE8FF"],
+    "INTERACTIVE_ACTIVE": ["#4DA9FF"],
+    "INTERACTIVE_MUTED": ["#4DA9FF55"],
+
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#CFE8FF"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#F2F8FF"],
+    "BUTTON_OUTLINE_BRAND_BORDER": ["#4DA9FF"],
+
+    "INPUT_BORDER": ["#4DA9FF"],
+    "INPUT_BORDER_FOCUS": ["#CFE8FF"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#4DA9FF18"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#4DA9FF28"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#4DA9FF38"],
+
+    "SCROLLBAR_THIN_THUMB": ["#CFE8FF"],
+    "SCROLLBAR_THIN_TRACK": ["#4DA9FF12"],
+    "SCROLLBAR_AUTO_TRACK": ["#4DA9FF12"],
+
+    "FOCUS_PRIMARY": ["#4DA9FF"],
+    "FOCUS_SECONDARY": ["#F2F8FF"],
+
+    "BACKGROUND_FLOATING": ["#090C10"],
+    "BACKGROUND_NESTED_FLOATING": ["#090C10"]
+  },
+
+  "background": {
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/mio%20haimiya%20_%20%E3%81%BF%E3%82%84%E7%BE%8E%E6%A1%9Ch-Picsart-AiImageEnhancer.jpeg",
+    "alpha": 0.66,
+    "blur": 4
+  },
+
+  "rawColors": {
+    "BRAND_360": "#CFE8FF",
+    "BRAND_500": "#4DA9FF",
+
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#EEF5FF",
+    "PRIMARY_230": "#0A0D12",
+    "PRIMARY_300": "#090C10",
+    "PRIMARY_400": "#0A0F14",
+    "PRIMARY_500": "#090C10",
+    "PRIMARY_600": "#070A0E",
+    "PRIMARY_700": "#06080C",
+    "PRIMARY_800": "#05060A",
+    "PRIMARY_900": "#000000",
+
+    "GREEN_360": "#8CC7FF",
+    "BLUE_345": "#4DA9FF",
+    "YELLOW_300": "#F2F8FF",
+
+    "ORANGE_345": "#8C5A4A",
+    "RED_400": "#8C5A4A",
+
+    "PLUM_1": "#F2F8FF",
+    "PLUM_3": "#4DA9FF",
+    "PLUM_11": "#4DA9FF",
+    "PLUM_13": "#CFE8FF",
+    "PLUM_15": "#090C10",
+    "PLUM_16": "#EAF2FF",
+    "PLUM_17": "#0A0D12",
+    "PLUM_18": "#0A0D12",
+    "PLUM_19": "#090C10",
+    "PLUM_20": "#090C10",
+    "PLUM_22": "#090C10",
+    "PLUM_23": "#090C10",
+    "PLUM_24": "#090C10"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#4DA9FF"],
+      "StatusStreaming": ["#CFE8FF"],
+      "StatusMobileOnline": ["#F2F8FF"],
+      "StatusDND": ["#8C5A4A"],
+      "StatusOffline": ["#6B7A8A"],
+      "StatusOnline": ["#4DA9FF"]
+    }
+  }
+}
