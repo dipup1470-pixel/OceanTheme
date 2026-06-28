@@ -1,0 +1,110 @@
+{
+  "name": "Crystal Eye Waifu UI (Final Readable)",
+  "description": "High-contrast anime waifu theme with crystal-blue identity, fixed reply highlighting, and strong readability over images",
+  "authors": [
+    {
+      "name": "fh7k",
+      "id": "1502926408446509066"
+    }
+  ],
+  "spec": 2,
+
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#2F6BFF28"],
+    "MENTION_BACKGROUND": ["#2F6BFF"],
+    "TEXT_MENTION": ["#2F6BFF"],
+
+    "TEXT_DEFAULT": ["#FFFFFF"],
+    "TEXT_MUTED": ["#B8C2D6"],
+
+    "INPUT_BACKGROUND": ["#0A0C10"],
+
+    "CHANNEL_ICON": ["#F5F7FF"],
+
+    "INTERACTIVE_NORMAL": ["#9AB7FF"],
+    "INTERACTIVE_HOVER": ["#D6E2FF"],
+    "INTERACTIVE_ACTIVE": ["#2F6BFF"],
+    "INTERACTIVE_MUTED": ["#2F6BFF66"],
+
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#D6E2FF"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#F5F7FF"],
+    "BUTTON_OUTLINE_BRAND_BORDER": ["#2F6BFF"],
+
+    "INPUT_BORDER": ["#2F6BFF"],
+    "INPUT_BORDER_FOCUS": ["#D6E2FF"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#2F6BFF1E"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#2F6BFF2E"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#2F6BFF3A"],
+
+    "SCROLLBAR_THIN_THUMB": ["#D6E2FF"],
+    "SCROLLBAR_THIN_TRACK": ["#2F6BFF12"],
+    "SCROLLBAR_AUTO_TRACK": ["#2F6BFF12"],
+
+    "FOCUS_PRIMARY": ["#2F6BFF"],
+    "FOCUS_SECONDARY": ["#F5F7FF"],
+
+    "BACKGROUND_FLOATING": ["#03050A"],
+    "BACKGROUND_NESTED_FLOATING": ["#03050A"],
+
+    "BACKGROUND_MESSAGE_HOVER": ["#2F6BFF12"]
+  },
+
+  "background": {
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/mio%20haimiya%20_%20%E3%81%BF%E3%82%84%E7%BE%8E%E6%A1%9Ch-Picsart-AiImageEnhancer.jpeg",
+    "alpha": 0.38,
+    "blur": 0
+  },
+
+  "rawColors": {
+    "BRAND_360": "#D6E2FF",
+    "BRAND_500": "#2F6BFF",
+
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#F2F5FF",
+    "PRIMARY_230": "#0A0C10",
+    "PRIMARY_300": "#090B10",
+    "PRIMARY_400": "#0A0C10",
+    "PRIMARY_500": "#090B10",
+    "PRIMARY_600": "#07090D",
+    "PRIMARY_700": "#06080C",
+    "PRIMARY_800": "#05060A",
+    "PRIMARY_900": "#000000",
+
+    "GREEN_360": "#9AB7FF",
+    "BLUE_345": "#2F6BFF",
+    "YELLOW_300": "#FFFFFF",
+
+    "ORANGE_345": "#7A4A3E",
+    "RED_400": "#7A4A3E",
+
+    "PLUM_1": "#FFFFFF",
+    "PLUM_3": "#2F6BFF",
+    "PLUM_11": "#2F6BFF",
+    "PLUM_13": "#2F6BFF",
+    "PLUM_15": "#03050A",
+    "PLUM_16": "#F5F7FF",
+    "PLUM_17": "#0A0C10",
+    "PLUM_18": "#0A0C10",
+    "PLUM_19": "#03050A",
+    "PLUM_20": "#03050A",
+    "PLUM_22": "#03050A",
+    "PLUM_23": "#03050A",
+    "PLUM_24": "#03050A"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#2F6BFF"],
+      "StatusStreaming": ["#D6E2FF"],
+      "StatusMobileOnline": ["#FFFFFF"],
+      "StatusDND": ["#7A4A3E"],
+      "StatusOffline": ["#6B7280"],
+      "StatusOnline": ["#2F6BFF"],
+
+      "Reply": ["#2F6BFF"]
+    }
+  }
+}
