@@ -1,0 +1,103 @@
+{
+  "name": "Ocean",
+  "description": "Ocean Themed (Enhanced)",
+  "authors": [
+    {
+      "name": "fh7k",
+      "id": "1502926408446509066"
+    }
+  ],
+  "spec": 2,
+
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#4DD8FF33"],
+    "MENTION_BACKGROUND": ["#4DD8FF"],
+    "TEXT_MENTION": ["#4DD8FF"],
+    "TEXT_DEFAULT": ["#FFFFFF"],
+
+    "INPUT_BACKGROUND": ["#08131A"],
+
+    "CHANNEL_ICON": ["#7FEFFF"],
+
+    "INTERACTIVE_NORMAL": ["#009DFF"],
+    "INTERACTIVE_HOVER": ["#55E6FF"],
+    "INTERACTIVE_ACTIVE": ["#33C7FF"],
+    "INTERACTIVE_MUTED": ["#55E6FF55"],
+
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#33C7FF"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#22D3EE"],
+    "BUTTON_OUTLINE_BRAND_BORDER": ["#33C7FF"],
+
+    "INPUT_BORDER": ["#33C7FF"],
+    "INPUT_BORDER_FOCUS": ["#55E6FF"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#55E6FF18"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#009DFF28"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#55E6FF38"],
+
+    "SCROLLBAR_THIN_THUMB": ["#6FE8FF"],
+    "SCROLLBAR_THIN_TRACK": ["#33C7FF22"],
+    "SCROLLBAR_AUTO_TRACK": ["#33C7FF22"],
+
+    "FOCUS_PRIMARY": ["#33C7FF"],
+    "FOCUS_SECONDARY": ["#55E6FF"],
+
+    "BACKGROUND_FLOATING": ["#0B1722"],
+    "BACKGROUND_NESTED_FLOATING": ["#0B1722"]
+  },
+
+  "background": {
+    "url": "https://raw.githubusercontent.com/corpsecrown/revenge-themes-for-evb/refs/heads/main/OceanVibe.jpg",
+    "alpha": 0.72,
+    "blur": 2
+  },
+
+  "rawColors": {
+    "BRAND_360": "#4DD8FF",
+    "BRAND_500": "#009DFF",
+
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#E6FAFF",
+    "PRIMARY_230": "#08131A",
+    "PRIMARY_300": "#061018",
+    "PRIMARY_400": "#0B1722",
+    "PRIMARY_500": "#061018",
+    "PRIMARY_600": "#040A10",
+    "PRIMARY_700": "#040A10",
+    "PRIMARY_800": "#02060A",
+    "PRIMARY_900": "#000000",
+
+    "GREEN_360": "#3EF2B3",
+    "BLUE_345": "#009DFF",
+    "YELLOW_300": "#7FEFFF",
+    "ORANGE_345": "#4DD8FF",
+    "RED_400": "#FF6B81",
+
+    "PLUM_1": "#4DD8FF",
+    "PLUM_3": "#009DFF",
+    "PLUM_11": "#009DFF",
+    "PLUM_13": "#33C7FF",
+    "PLUM_15": "#0B1722",
+    "PLUM_16": "#7FEFFF",
+    "PLUM_17": "#08131A",
+    "PLUM_18": "#08131A",
+    "PLUM_19": "#0B1722",
+    "PLUM_20": "#061018",
+    "PLUM_22": "#061018",
+    "PLUM_23": "#0B1722",
+    "PLUM_24": "#0B1722"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#4DD8FF"],
+      "StatusStreaming": ["#B388FF"],
+      "StatusMobileOnline": ["#55F0D8"],
+      "StatusDND": ["#FF6B81"],
+      "StatusOffline": ["#6B7280"],
+      "StatusOnline": ["#3EF2B3"]
+    }
+  }
+}
