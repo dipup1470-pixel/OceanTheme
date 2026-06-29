@@ -1,6 +1,6 @@
 {
-  "name": "Silver Idol Waifu",
-  "description": "Silver-white anime waifu inspired aesthetic with blue eye accents and athletic monochrome UI",
+  "name": "Silver Idol Waifu (Stable Optimized)",
+  "description": "Optimized version of working Rain theme with cleaned structure and safer consistency rules.",
   "authors": [
     {
       "name": "fh7k",
@@ -15,6 +15,8 @@
     "TEXT_MENTION": ["#4DA3FF"],
     "TEXT_DEFAULT": ["#F2F6FF"],
 
+    "TEXT_MUTED": ["#A9B4C7"],
+
     "INPUT_BACKGROUND": ["#0A0D12"],
 
     "CHANNEL_ICON": ["#E6ECF7"],
@@ -24,7 +26,6 @@
     "INTERACTIVE_ACTIVE": ["#4DA3FF"],
     "INTERACTIVE_MUTED": ["#4DA3FF55"],
 
-    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#A9D6FF"],
     "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#EAF3FF"],
     "BUTTON_OUTLINE_BRAND_BORDER": ["#4DA3FF"],
 
@@ -37,13 +38,11 @@
 
     "SCROLLBAR_THIN_THUMB": ["#A9D6FF"],
     "SCROLLBAR_THIN_TRACK": ["#4DA3FF15"],
-    "SCROLLBAR_AUTO_TRACK": ["#4DA3FF15"],
 
     "FOCUS_PRIMARY": ["#4DA3FF"],
     "FOCUS_SECONDARY": ["#EAF3FF"],
 
-    "BACKGROUND_FLOATING": ["#0B0F14"],
-    "BACKGROUND_NESTED_FLOATING": ["#0B0F14"]
+    "BACKGROUND_FLOATING": ["#0B0F14"]
   },
 
   "background": {
@@ -58,41 +57,19 @@
 
     "PRIMARY_100": "#FFFFFF",
     "PRIMARY_200": "#E9F0FF",
-    "PRIMARY_230": "#0A0D12",
     "PRIMARY_300": "#090C10",
     "PRIMARY_400": "#0B0F14",
     "PRIMARY_500": "#090C10",
     "PRIMARY_600": "#070A0E",
     "PRIMARY_700": "#06080C",
     "PRIMARY_800": "#05060A",
-    "PRIMARY_900": "#000000",
-
-    "GREEN_360": "#6FB6FF",
-    "BLUE_345": "#4DA3FF",
-    "YELLOW_300": "#EAF3FF",
-    "ORANGE_345": "#A66B5A",
-    "RED_400": "#A66B5A",
-
-    "PLUM_1": "#EAF3FF",
-    "PLUM_3": "#4DA3FF",
-    "PLUM_11": "#4DA3FF",
-    "PLUM_13": "#A9D6FF",
-    "PLUM_15": "#0B0F14",
-    "PLUM_16": "#E6ECF7",
-    "PLUM_17": "#0A0D12",
-    "PLUM_18": "#0A0D12",
-    "PLUM_19": "#0B0F14",
-    "PLUM_20": "#090C10",
-    "PLUM_22": "#090C10",
-    "PLUM_23": "#0B0F14",
-    "PLUM_24": "#0B0F14"
+    "PRIMARY_900": "#000000"
   },
 
   "plus": {
     "version": "0",
     "iconpack": "rosiecord-plumpy",
     "icons": {
-      "ic_new_pins": ["#4DA3FF"],
       "StatusStreaming": ["#A9D6FF"],
       "StatusMobileOnline": ["#E6ECF7"],
       "StatusDND": ["#A66B5A"],
