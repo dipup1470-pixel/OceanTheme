@@ -1,88 +1,115 @@
 {
-  "name": "Haimiya Ice Idol UI",
-  "description": "Silver idol anime UI theme with ice-white palette, controlled lavender accents, and stable Rain-compatible structure",
-  "authors": [
-    {
-      "name": "fh7k",
-      "id": "1502926408446509066"
-    }
-  ],
+  "name": "Haimiya Premium - Frost Reactive",
+  "description": "AMOLED-first waifu-reactive Discord theme. Built from graphite base with silver structural UI and restrained ice-blue interaction system. Designed for clean background dominance and high readability.",
+
   "spec": 2,
 
-  "semanticColors": {
-    "BACKGROUND_MENTIONED": ["#C9D4FF22"],
-    "MENTION_BACKGROUND": ["#C9D4FF"],
-    "TEXT_MENTION": ["#F5F7FF"],
-
-    "TEXT_DEFAULT": ["#F5F7FF"],
-    "TEXT_MUTED": ["#AEB6C7"],
-
-    "INPUT_BACKGROUND": ["#07090D"],
-
-    "CHANNEL_ICON": ["#E6ECF7"],
-
-    "INTERACTIVE_NORMAL": ["#AEB6C7"],
-    "INTERACTIVE_HOVER": ["#E6ECF7"],
-    "INTERACTIVE_ACTIVE": ["#C9D4FF"],
-    "INTERACTIVE_MUTED": ["#7C879A"],
-
-    "BACKGROUND_MODIFIER_HOVER": ["#C9D4FF14"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["#C9D4FF1F"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#C9D4FF2A"],
-
-    "INPUT_BORDER": ["#1B2230"],
-    "INPUT_BORDER_FOCUS": ["#C9D4FF"],
-
-    "SCROLLBAR_THIN_THUMB": ["#AEB6C7"],
-    "SCROLLBAR_THIN_TRACK": ["#0B0D12"],
-
-    "FOCUS_PRIMARY": ["#C9D4FF"],
-    "FOCUS_SECONDARY": ["#F5F7FF"],
-
-    "BACKGROUND_FLOATING": ["#07090D"],
-    "BACKGROUND_NESTED_FLOATING": ["#0B0D12"],
-
-    "BACKGROUND_MODIFIER_SELECTED_HOVER": ["#C9D4FF2F"],
-
-    "CHAT_HIGHLIGHT": ["#C9D4FF1A"],
-    "CHAT_REPLY_HIGHLIGHT": ["#B9C6FF22"]
+  "design_identity": {
+    "base": "true_amoled_black",
+    "structure": "silver_layered_ui",
+    "accent_logic": "blue_only_for_interaction_signals",
+    "avoid": ["blue_overuse", "white_ui_flood", "washed_gray_backgrounds"]
   },
 
   "background": {
-    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/mio%20haimiya%20_%20%E3%81%BF%E3%82%84%E7%BE%8E%E6%A1%9Ch-Picsart-AiImageEnhancer.jpeg",
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
     "alpha": 0.50,
-    "blur": 2
+    "blur": 0,
+    "vignette": 0.28,
+    "overlay": "rgba(0,0,0,0.72)"
   },
 
-  "rawColors": {
-    "BRAND_500": "#C9D4FF",
-    "BRAND_360": "#B9C6FF",
+  "colors": {
+    "black_0": "#000000",
+    "black_1": "#050507",
+    "black_2": "#0A0C10",
+    "surface": "#0B0D12",
+    "surface_elevated": "#10131A",
 
-    "PRIMARY_100": "#F5F7FF",
-    "PRIMARY_200": "#E6ECFF",
-    "PRIMARY_300": "#0B0D12",
-    "PRIMARY_400": "#07090D",
-    "PRIMARY_500": "#0B0D12",
-    "PRIMARY_600": "#0E1118",
-    "PRIMARY_700": "#151A24",
-    "PRIMARY_800": "#1B2230",
-    "PRIMARY_900": "#000000",
+    "silver_primary": "#D6D6DA",
+    "silver_muted": "#AAB0BA",
+    "silver_dim": "#6F7782",
 
-    "GREEN_360": "#A8F0D1",
-    "YELLOW_300": "#FFD6A5",
-    "RED_400": "#FF8FA3",
-    "BLUE_345": "#C9D4FF"
+    "ice_blue": "#4DA9FF",
+    "ice_soft": "#8AB6FF",
+
+    "text_primary": "#F5F8FF",
+    "text_muted": "#AAB4C2"
   },
 
-  "plus": {
-    "version": "0",
-    "iconpack": "rosiecord-plumpy",
-    "icons": {
-      "StatusOnline": ["#C9D4FF"],
-      "StatusMobileOnline": ["#E6ECF7"],
-      "StatusStreaming": ["#B9C6FF"],
-      "StatusDND": ["#FF8FA3"],
-      "StatusOffline": ["#7C879A"]
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": "#050507",
+    "BACKGROUND_SECONDARY": "#0A0C10",
+    "BACKGROUND_TERTIARY": "#0B0D12",
+
+    "TEXT_NORMAL": "#F5F8FF",
+    "TEXT_MUTED": "#AAB4C2",
+
+    "TEXT_LINK": "#4DA9FF",
+
+    "INTERACTIVE_NORMAL": "#D6D6DA",
+    "INTERACTIVE_HOVER": "#F5F8FF",
+    "INTERACTIVE_ACTIVE": "#4DA9FF",
+
+    "CHANNEL_SELECTED": "#4DA9FF",
+    "CHANNEL_DEFAULT": "#D6D6DA",
+    "CHANNEL_MUTED": "#6F7782"
+  },
+
+  "ui_system": {
+    "glassmorphism": true,
+    "glass_strength": 0.48,
+    "glass_blur": 14,
+    "border_radius": 12,
+
+    "shadow_depth": "soft_low",
+    "contrast_priority": "text_over_background"
+  },
+
+  "components": {
+    "mentions": {
+      "bg": "rgba(77, 169, 255, 0.10)",
+      "border": "#4DA9FF",
+      "text": "#F5F8FF"
+    },
+
+    "replies": {
+      "line": "#4DA9FF",
+      "preview": "#AAB0BA"
+    },
+
+    "hover": {
+      "bg": "rgba(255,255,255,0.04)"
+    },
+
+    "selected_channel": {
+      "bg": "rgba(214, 214, 218, 0.06)",
+      "indicator": "#4DA9FF"
+    },
+
+    "ping_badge": {
+      "bg": "#4DA9FF",
+      "text": "#000000"
     }
+  },
+
+  "status": {
+    "online": "#8AB6FF",
+    "idle": "#F5F8FF",
+    "dnd": "#4DA9FF",
+    "offline": "#6F7782"
+  },
+
+  "icons": {
+    "default": "#AAB0BA",
+    "active": "#4DA9FF",
+    "muted": "#6F7782"
+  },
+
+  "rules": {
+    "blue_usage": "interaction_only",
+    "silver_usage": "ui_structure",
+    "background_protection": "strong_dim_not_blur",
+    "no_white_ui_flood": true
   }
 }
