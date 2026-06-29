@@ -1,15 +1,6 @@
 {
-  "name": "Crystal Eye Waifu UI (Rain Stable Rebuild)",
-  "description": "Stable anime ice-blue theme optimized for Rain compatibility with fixed semantic mapping and working RAW background support.",
+  "name": "Haimiya Safe Base",
   "spec": 2,
-
-  "authors": [
-    {
-      "name": "fh7k",
-      "id": "1502926408446509066"
-    }
-  ],
-
   "semanticColors": {
     "BACKGROUND_PRIMARY": "#0A0C10",
     "BACKGROUND_SECONDARY": "#0E1118",
@@ -19,55 +10,12 @@
     "TEXT_MUTED": "#AAB2C0",
 
     "INTERACTIVE_NORMAL": "#9AB7FF",
-    "INTERACTIVE_HOVER": "#D6E2FF",
-    "INTERACTIVE_ACTIVE": "#2F6BFF",
-    "INTERACTIVE_MUTED": "#2F6BFF66",
-
-    "BACKGROUND_MODIFIER_HOVER": "#2F6BFF1A",
-    "BACKGROUND_MODIFIER_ACTIVE": "#2F6BFF22",
-    "BACKGROUND_MODIFIER_SELECTED": "#2F6BFF33",
-
-    "BACKGROUND_FLOATING": "#07090D",
-    "INPUT_BACKGROUND": "#07090D",
-
-    "MENTION_BACKGROUND": "#2F6BFF22",
-    "MENTION_HOVER_BACKGROUND": "#2F6BFF33",
-    "TEXT_MENTION": "#2F6BFF"
-  },
-
-  "rawColors": {
-    "BRAND_500": "#2F6BFF",
-    "BRAND_360": "#2F6BFF",
-
-    "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_200": "#E6EEFF",
-    "PRIMARY_300": "#0A0C10",
-    "PRIMARY_400": "#0E1118",
-    "PRIMARY_500": "#0A0C10",
-    "PRIMARY_600": "#07090D",
-    "PRIMARY_700": "#05070B",
-    "PRIMARY_800": "#04060A",
-    "PRIMARY_900": "#000000",
-
-    "RED_400": "#FF5C7A",
-    "YELLOW_300": "#FFD37A",
-    "GREEN_360": "#7FF0D1"
+    "INTERACTIVE_ACTIVE": "#2F6BFF"
   },
 
   "background": {
     "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
     "alpha": 0.45,
     "blur": 0
-  },
-
-  "plus": {
-    "version": "1",
-    "iconpack": "rosiecord-plumpy",
-    "icons": {
-      "StatusOnline": "#2F6BFF",
-      "StatusDND": "#FF5C7A",
-      "StatusIdle": "#FFD37A",
-      "StatusOffline": "#6B7280"
-    }
   }
 }
