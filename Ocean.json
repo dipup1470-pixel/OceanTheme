@@ -1,6 +1,6 @@
 {
-  "name": "Silver Idol Waifu (Stable Optimized)",
-  "description": "Optimized version of working Rain theme with cleaned structure and safer consistency rules.",
+  "name": "Haimiya Ice Idol UI",
+  "description": "Silver idol anime UI theme with ice-white palette, controlled lavender accents, and stable Rain-compatible structure",
   "authors": [
     {
       "name": "fh7k",
@@ -10,71 +10,79 @@
   "spec": 2,
 
   "semanticColors": {
-    "BACKGROUND_MENTIONED": ["#4DA3FF2A"],
-    "MENTION_BACKGROUND": ["#4DA3FF"],
-    "TEXT_MENTION": ["#4DA3FF"],
-    "TEXT_DEFAULT": ["#F2F6FF"],
+    "BACKGROUND_MENTIONED": ["#C9D4FF22"],
+    "MENTION_BACKGROUND": ["#C9D4FF"],
+    "TEXT_MENTION": ["#F5F7FF"],
 
-    "TEXT_MUTED": ["#A9B4C7"],
+    "TEXT_DEFAULT": ["#F5F7FF"],
+    "TEXT_MUTED": ["#AEB6C7"],
 
-    "INPUT_BACKGROUND": ["#0A0D12"],
+    "INPUT_BACKGROUND": ["#07090D"],
 
     "CHANNEL_ICON": ["#E6ECF7"],
 
-    "INTERACTIVE_NORMAL": ["#6FB6FF"],
-    "INTERACTIVE_HOVER": ["#A9D6FF"],
-    "INTERACTIVE_ACTIVE": ["#4DA3FF"],
-    "INTERACTIVE_MUTED": ["#4DA3FF55"],
+    "INTERACTIVE_NORMAL": ["#AEB6C7"],
+    "INTERACTIVE_HOVER": ["#E6ECF7"],
+    "INTERACTIVE_ACTIVE": ["#C9D4FF"],
+    "INTERACTIVE_MUTED": ["#7C879A"],
 
-    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#EAF3FF"],
-    "BUTTON_OUTLINE_BRAND_BORDER": ["#4DA3FF"],
+    "BACKGROUND_MODIFIER_HOVER": ["#C9D4FF14"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#C9D4FF1F"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#C9D4FF2A"],
 
-    "INPUT_BORDER": ["#4DA3FF"],
-    "INPUT_BORDER_FOCUS": ["#A9D6FF"],
+    "INPUT_BORDER": ["#1B2230"],
+    "INPUT_BORDER_FOCUS": ["#C9D4FF"],
 
-    "BACKGROUND_MODIFIER_HOVER": ["#4DA3FF18"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["#4DA3FF28"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#4DA3FF38"],
+    "SCROLLBAR_THIN_THUMB": ["#AEB6C7"],
+    "SCROLLBAR_THIN_TRACK": ["#0B0D12"],
 
-    "SCROLLBAR_THIN_THUMB": ["#A9D6FF"],
-    "SCROLLBAR_THIN_TRACK": ["#4DA3FF15"],
+    "FOCUS_PRIMARY": ["#C9D4FF"],
+    "FOCUS_SECONDARY": ["#F5F7FF"],
 
-    "FOCUS_PRIMARY": ["#4DA3FF"],
-    "FOCUS_SECONDARY": ["#EAF3FF"],
+    "BACKGROUND_FLOATING": ["#07090D"],
+    "BACKGROUND_NESTED_FLOATING": ["#0B0D12"],
 
-    "BACKGROUND_FLOATING": ["#0B0F14"]
+    "BACKGROUND_MODIFIER_SELECTED_HOVER": ["#C9D4FF2F"],
+
+    "CHAT_HIGHLIGHT": ["#C9D4FF1A"],
+    "CHAT_REPLY_HIGHLIGHT": ["#B9C6FF22"]
   },
 
   "background": {
     "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/mio%20haimiya%20_%20%E3%81%BF%E3%82%84%E7%BE%8E%E6%A1%9Ch-Picsart-AiImageEnhancer.jpeg",
-    "alpha": 0.72,
-    "blur": 3
+    "alpha": 0.50,
+    "blur": 2
   },
 
   "rawColors": {
-    "BRAND_360": "#A9D6FF",
-    "BRAND_500": "#4DA3FF",
+    "BRAND_500": "#C9D4FF",
+    "BRAND_360": "#B9C6FF",
 
-    "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_200": "#E9F0FF",
-    "PRIMARY_300": "#090C10",
-    "PRIMARY_400": "#0B0F14",
-    "PRIMARY_500": "#090C10",
-    "PRIMARY_600": "#070A0E",
-    "PRIMARY_700": "#06080C",
-    "PRIMARY_800": "#05060A",
-    "PRIMARY_900": "#000000"
+    "PRIMARY_100": "#F5F7FF",
+    "PRIMARY_200": "#E6ECFF",
+    "PRIMARY_300": "#0B0D12",
+    "PRIMARY_400": "#07090D",
+    "PRIMARY_500": "#0B0D12",
+    "PRIMARY_600": "#0E1118",
+    "PRIMARY_700": "#151A24",
+    "PRIMARY_800": "#1B2230",
+    "PRIMARY_900": "#000000",
+
+    "GREEN_360": "#A8F0D1",
+    "YELLOW_300": "#FFD6A5",
+    "RED_400": "#FF8FA3",
+    "BLUE_345": "#C9D4FF"
   },
 
   "plus": {
     "version": "0",
     "iconpack": "rosiecord-plumpy",
     "icons": {
-      "StatusStreaming": ["#A9D6FF"],
+      "StatusOnline": ["#C9D4FF"],
       "StatusMobileOnline": ["#E6ECF7"],
-      "StatusDND": ["#A66B5A"],
-      "StatusOffline": ["#6B7A90"],
-      "StatusOnline": ["#4DA3FF"]
+      "StatusStreaming": ["#B9C6FF"],
+      "StatusDND": ["#FF8FA3"],
+      "StatusOffline": ["#7C879A"]
     }
   }
 }
