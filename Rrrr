@@ -1,0 +1,107 @@
+{
+  "name": "Frostbite",
+  "description": "Stable graphite + ice-blue Discord theme inspired by silver-haired anime aesthetic. High contrast, no warm color leakage, sharp background.",
+  "authors": [
+    {
+      "name": "fh7k",
+      "id": "1502926408446509066"
+    }
+  ],
+  "spec": 2,
+
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#4DA9FF26"],
+    "MENTION_BACKGROUND": ["#4DA9FF"],
+    "TEXT_MENTION": ["#4DA9FF"],
+
+    "TEXT_DEFAULT": ["#FFFFFF"],
+    "TEXT_MUTED": ["#AAB4C2"],
+
+    "INPUT_BACKGROUND": ["#0B0D10"],
+
+    "CHANNEL_ICON": ["#EAF1FF"],
+
+    "INTERACTIVE_NORMAL": ["#8AB6FF"],
+    "INTERACTIVE_HOVER": ["#D6E6FF"],
+    "INTERACTIVE_ACTIVE": ["#4DA9FF"],
+    "INTERACTIVE_MUTED": ["#4DA9FF66"],
+
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#D6E6FF"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#F5F8FF"],
+    "BUTTON_OUTLINE_BRAND_BORDER": ["#4DA9FF"],
+
+    "INPUT_BORDER": ["#4DA9FF"],
+    "INPUT_BORDER_FOCUS": ["#D6E6FF"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#4DA9FF1E"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#4DA9FF2A"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#4DA9FF3A"],
+
+    "SCROLLBAR_THIN_THUMB": ["#D6E6FF"],
+    "SCROLLBAR_THIN_TRACK": ["#4DA9FF12"],
+    "SCROLLBAR_AUTO_TRACK": ["#4DA9FF12"],
+
+    "FOCUS_PRIMARY": ["#4DA9FF"],
+    "FOCUS_SECONDARY": ["#F5F8FF"],
+
+    "BACKGROUND_FLOATING": ["#0A0C10"],
+    "BACKGROUND_NESTED_FLOATING": ["#0A0C10"],
+
+    "BACKGROUND_MESSAGE_HOVER": ["#4DA9FF14"]
+  },
+
+  "background": {
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
+    "alpha": 0.45,
+    "blur": 0
+  },
+
+  "rawColors": {
+    "BRAND_360": "#D6E6FF",
+    "BRAND_500": "#4DA9FF",
+
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#F2F6FF",
+    "PRIMARY_300": "#0A0C10",
+    "PRIMARY_400": "#0B0D12",
+    "PRIMARY_500": "#0A0C10",
+    "PRIMARY_600": "#080A0D",
+    "PRIMARY_700": "#06080B",
+    "PRIMARY_800": "#05070A",
+    "PRIMARY_900": "#000000",
+
+    "GREEN_360": "#8AB6FF",
+    "BLUE_345": "#4DA9FF",
+    "YELLOW_300": "#FFFFFF",
+
+    "ORANGE_345": "#4DA9FF",
+    "RED_400": "#4DA9FF",
+
+    "PLUM_1": "#FFFFFF",
+    "PLUM_3": "#4DA9FF",
+    "PLUM_11": "#4DA9FF",
+    "PLUM_13": "#4DA9FF",
+    "PLUM_15": "#0A0C10",
+    "PLUM_16": "#F5F8FF",
+    "PLUM_17": "#0A0C10",
+    "PLUM_18": "#0A0C10",
+    "PLUM_19": "#0A0C10",
+    "PLUM_20": "#0A0C10",
+    "PLUM_22": "#0A0C10",
+    "PLUM_23": "#0A0C10",
+    "PLUM_24": "#0A0C10"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#4DA9FF"],
+      "StatusStreaming": ["#D6E6FF"],
+      "StatusMobileOnline": ["#FFFFFF"],
+      "StatusDND": ["#6B6BFF"],
+      "StatusOffline": ["#6B7280"],
+      "StatusOnline": ["#4DA9FF"]
+    }
+  }
+}
