@@ -1,105 +1,65 @@
 {
-  "name": "Haimiya Pure",
-  "description": "Ultra-minimal AMOLED Discord theme built exclusively around a silver-haired waifu aesthetic. No ocean/blue system. Focus is monochrome depth, cinematic contrast, and clean UI framing of background art.",
-
-  "spec": 2,
-
-  "design_identity": {
-    "core": "waifu_centric_monochrome",
-    "accent_policy": "no_blue_allowed",
-    "structure_color": "silver_only",
-    "emotion_language": "light_shadow_contrast",
-    "inspiration": "anime_portrait_gallery_ui"
+  "metadata": {
+    "name": "Haimiya Theme :)",
+    "author": "SomethingTags",
+    "version": "6.7",
+    "description": "made by SomethingTags for Vencord",
+    "source": "https://github.com/ClearVision/ClearVision-v7",
+    "website": "https://clearvision.github.io",
+    "invite": "dHaSxn3"
   },
-
-  "background": {
-    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
-    "blur": 0,
-    "dim": 0.74,
-    "overlay": "rgba(0,0,0,0.72)",
-    "vignette": 0.32
+  "imports": [
+    "https://clearvision.github.io/ClearVision-v7/main.css",
+    "https://clearvision.github.io/ClearVision-v7/betterdiscord.css",
+    "https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+  ],
+  "rootVariables": {
+    "--background-image": "url(https://i.imgur.com/zbeHMOO.jpeg)",
+    "--main-color": "#d81b60",
+    "--hover-color": "#b0134b",
+    "--focus-color": "#00e5ff",
+    "--channel-unread": "#d81b60",
+    "--channel-unread-hover": "#00e5ff"
   },
-
-  "colors": {
-    "black": "#000000",
-    "deep_black": "#050507",
-    "surface": "#0A0A0D",
-    "surface_soft": "#101015",
-
-    "silver_main": "#D8D8DC",
-    "silver_muted": "#A0A3AA",
-    "silver_dim": "#6E727A",
-
-    "text_primary": "#F5F6F8",
-    "text_secondary": "#C9CDD3",
-    "text_muted": "#8A8F98"
-  },
-
-  "semanticColors": {
-    "BACKGROUND_PRIMARY": "#000000",
-    "BACKGROUND_SECONDARY": "#050507",
-    "BACKGROUND_TERTIARY": "#0A0A0D",
-
-    "TEXT_NORMAL": "#F5F6F8",
-    "TEXT_MUTED": "#8A8F98",
-
-    "TEXT_LINK": "#D8D8DC",
-
-    "INTERACTIVE_NORMAL": "#D8D8DC",
-    "INTERACTIVE_HOVER": "#F5F6F8",
-    "INTERACTIVE_ACTIVE": "#D8D8DC",
-
-    "CHANNEL_DEFAULT": "#D8D8DC",
-    "CHANNEL_SELECTED": "#F5F6F8",
-    "CHANNEL_MUTED": "#6E727A"
-  },
-
-  "components": {
-    "mentions": {
-      "background": "rgba(255,255,255,0.06)",
-      "border": "#D8D8DC",
-      "text": "#F5F6F8"
+  "customOverrides": {
+    ".leading_c38106::before, [class*=\"leading_\"]::before": {
+      "content": "\"Haimiya Senpai Wa Kowakute Kawaii\" !important",
+      "font-family": "'Great Vibes', cursive !important",
+      "font-size": "18px !important",
+      "font-weight": "500 !important",
+      "display": "inline-block !important",
+      "background": "linear-gradient(90deg, #d81b60, #00e5ff) !important",
+      "-webkit-background-clip": "text !important",
+      "-webkit-text-fill-color": "transparent !important",
+      "filter": "drop-shadow(0 0 2px rgba(216, 27, 96, 0.6)) drop-shadow(0 0 5px rgba(0, 229, 255, 0.4)) !important",
+      "visibility": "visible !important"
     },
-
-    "replies": {
-      "line": "#D8D8DC",
-      "preview": "#A0A3AA"
+    ".leading_c38106::after, [class*=\"leading_\"]::after": {
+      "content": "\"\" !important",
+      "visibility": "visible !important"
     },
-
-    "hover": {
-      "background": "rgba(255,255,255,0.04)"
+    "[class*=\"guilds_\"], [class*=\"guilds_\"] [class*=\"scroller_\"], [class*=\"guilds_\"] [class*=\"tree_\"]": {
+      "background": "transparent !important",
+      "background-color": "transparent !important"
     },
-
-    "selected_channel": {
-      "background": "rgba(255,255,255,0.05)",
-      "indicator": "#D8D8DC"
+    "[class*=\"panels_\"], [class*=\"panels_\"] > div, [class*=\"activityPanel_\"], [class*=\"channelTextArea_\"], [class*=\"scrollableContainer_\"], [class*=\"inner_\"]": {
+      "background": "transparent !important",
+      "background-color": "transparent !important",
+      "box-shadow": "none !important",
+      "border": "none !important"
     },
-
-    "ping_badge": {
-      "background": "#F5F6F8",
-      "text": "#000000"
+    "[class*=\"privateChannels_\"] [class*=\"channel_\"]": {
+      "border-bottom": "1px solid !important",
+      "border-image": "linear-gradient(to right, transparent, #d81b60 35%, #00e5ff 65%, transparent) 1 !important",
+      "box-shadow": "none !important",
+      "border-radius": "0 !important",
+      "background": "transparent !important"
+    },
+    "[class*=\"folderIconWrapper_\"], [class*=\"closedFolderIconWrapper_\"]": {
+      "box-shadow": "0 0 1px 1px #d81b60, 0 0 3px 1px #00e5ff !important"
+    },
+    "[class*=\"privateChannels_\"] [class*=\"interactive_\"][class*=\"selected_\"], [class*=\"privateChannels_\"] [class*=\"selected_\"] a[class*=\"link_\"], [class*=\"privateChannels_\"] [class*=\"channel_\"] [class*=\"selected_\"]": {
+      "background": "linear-gradient(90deg, #d81b60, #00e5ff) !important"
     }
-  },
-
-  "ui": {
-    "glassmorphism": true,
-    "glass_strength": 0.38,
-    "glass_blur": 12,
-    "border_radius": 10,
-    "shadow_strength": 0.25
-  },
-
-  "icons": {
-    "default": "#A0A3AA",
-    "active": "#F5F6F8",
-    "muted": "#6E727A"
-  },
-
-  "rules": {
-    "NO_BLUE": true,
-    "NO_OCEAN_PALETTE": true,
-    "NO_COLOR_ACCENTS_EXCEPT_SILVER": true,
-    "BACKGROUND_IS_PRIMARY_ART": true,
-    "UI_SHOULD_NOT_COMPETE_WITH_IMAGE": true
   }
 }
