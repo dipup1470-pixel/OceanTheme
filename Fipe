@@ -1,0 +1,129 @@
+{
+  "name": "Haimiya Mono Ice Combo Pack",
+  "version": "1.0.0",
+  "author": "fh7k",
+  "description": "Full Discord theme + icon system inspired by Haimiya. Monochrome goth-punk anime UI with ice-blue accent system, silver hair aesthetic, and integrated icon design rules.",
+
+  "identity": {
+    "character": "Haimiya",
+    "style": "monochrome_goth_punk_anime",
+    "hair": "silver_gray_with_white_highlights_and_dark_lowlights",
+    "eyes": "ice_blue_cyan_with_black_lashes",
+    "lighting": "cel_shaded_top_left_high_contrast"
+  },
+
+  "background": {
+    "enabled": true,
+    "image": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
+    "size": "cover",
+    "position": "center",
+    "repeat": "no-repeat",
+    "blur": 12,
+    "darken": 0.65
+  },
+
+  "palette": {
+    "base": {
+      "bg_0": "#0A0A0C",
+      "bg_1": "#101014",
+      "bg_2": "#16161C",
+      "bg_3": "#1C1C24"
+    },
+
+    "neutrals": {
+      "white_core": "#F5F7FF",
+      "gray_high": "#BFC3CC",
+      "gray_mid": "#8A8D96",
+      "gray_low": "#6E727C"
+    },
+
+    "accent": {
+      "primary": "#63D7FF",
+      "secondary": "#2AA7D6",
+      "glow": "rgba(99,215,255,0.20)"
+    },
+
+    "status": {
+      "success": "#7FF0D1",
+      "warning": "#FFD37A",
+      "danger": "#FF5C7A"
+    }
+  },
+
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": "#0A0A0C",
+    "BACKGROUND_SECONDARY": "#101014",
+    "BACKGROUND_SECONDARY_ALT": "#16161C",
+    "BACKGROUND_TERTIARY": "#0D0D10",
+
+    "BACKGROUND_FLOATING": "rgba(255,255,255,0.04)",
+    "BACKGROUND_MODIFIER_HOVER": "rgba(99,215,255,0.10)",
+    "BACKGROUND_MODIFIER_ACTIVE": "rgba(99,215,255,0.16)",
+
+    "TEXT_NORMAL": "#F5F7FF",
+    "TEXT_MUTED": "#A7AAB3",
+    "TEXT_LINK": "#63D7FF",
+    "TEXT_DANGER": "#FF5C7A",
+    "TEXT_WARNING": "#FFD37A",
+    "TEXT_POSITIVE": "#7FF0D1",
+
+    "INTERACTIVE_NORMAL": "#D7DAE3",
+    "INTERACTIVE_HOVER": "#FFFFFF",
+    "INTERACTIVE_ACTIVE": "#63D7FF",
+    "INTERACTIVE_MUTED": "#8A8D96",
+
+    "ACCENT_PRIMARY": "#63D7FF",
+    "ACCENT_SECONDARY": "#2AA7D6",
+    "ACCENT_TERTIARY": "#F5F7FF",
+
+    "BORDER_SUBTLE": "rgba(255,255,255,0.06)",
+    "BORDER_STRONG": "rgba(99,215,255,0.22)"
+  },
+
+  "ui_system": {
+    "glassmorphism": {
+      "enabled": true,
+      "blur_px": 10,
+      "opacity": 0.05
+    },
+
+    "motion": {
+      "hover_lift": "subtle",
+      "transition_ms": 180
+    },
+
+    "lighting_model": "top_left_cel_shaded",
+    "shadow_style": "hard_anime_cut",
+    "accent_limit": 1
+  },
+
+  "icon_system": {
+    "style": "flat_monochrome_cel_shaded",
+    "base_color": "#F5F7FF",
+    "shadow_color": "#16161C",
+    "disabled_color": "#6E727C",
+    "active_accent": "#63D7FF",
+
+    "rules": {
+      "no_neon_glow": true,
+      "no_ocean_palette": true,
+      "no_extra_accent_colors": true,
+      "accent_usage": "state_only",
+      "no_gradient_fills": true
+    },
+
+    "channel_icons": {
+      "text": "hash_flat_white",
+      "voice": "microphone_white_cyan_active",
+      "announcements": "megaphone_white_wave",
+      "rules": "shield_scroll_monochrome",
+      "chat": "speech_bubble_white",
+      "media": "image_frame_gray_depth",
+      "bots": "robot_face_flat_white",
+      "moderation": "gavel_dark_gray_white_edge",
+      "music": "note_white_cyan_active",
+      "gaming": "controller_monochrome",
+      "favorites": "star_white_silver_depth"
+    }
+  }
+}
