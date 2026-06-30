@@ -1,0 +1,102 @@
+{
+  "name": "Mio Haimiya Rain Theme",
+  "author": "Custom Rain Theme",
+  "description": "Monochromatic dark grunge aesthetic with striking ice-blue highlights directly matching Mio Haimiya's character palette.",
+  "background": {
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
+    "blur": 0,
+    "opacity": 0.35,
+    "brightness": 0.6,
+    "size": "cover",
+    "position": "center"
+  },
+  "colors": {
+    "deepestDark": "#141416",
+    "mutedCharcoal": "#2B2D31",
+    "softMidtoneGray": "#A2A7B1",
+    "crispAccentWhite": "#FFFFFF",
+    "primaryIceBlue": "#537FA9",
+    "mutedSecondaryBlue": "#3B5E82"
+  },
+  "ui": {
+    "appFrame": {
+      "background": "#141416",
+      "border": "#141416"
+    },
+    "panels": {
+      "background": "#141416",
+      "elevatedBackground": "#141416"
+    },
+    "chatList": {
+      "background": "#2B2D31",
+      "card": "#2B2D31",
+      "hover": "#3B5E82",
+      "border": "#3B5E82"
+    },
+    "channelContainer": {
+      "background": "#2B2D31",
+      "hover": "#3B5E82",
+      "activeBackground": "#3B5E82"
+    },
+    "overlayWindows": {
+      "background": "#2B2D31",
+      "border": "#3B5E82"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "header": "#FFFFFF",
+      "input": "#FFFFFF",
+      "secondary": "#A2A7B1",
+      "timestamp": "#A2A7B1",
+      "channelName": "#A2A7B1"
+    },
+    "accent": {
+      "brand": "#537FA9",
+      "homeButtonIcon": "#537FA9",
+      "mentionsBackground": "#537FA9",
+      "activeServerHighlight": "#537FA9",
+      "notificationDot": "#537FA9",
+      "toggleOn": "#537FA9",
+      "buttonPrimary": "#537FA9",
+      "buttonPrimaryHover": "#3B5E82"
+    },
+    "secondaryAccent": {
+      "borderOutline": "#3B5E82",
+      "hoveredListElement": "#3B5E82",
+      "unreadBadge": "#3B5E82",
+      "unreadBar": "#3B5E82"
+    },
+    "messages": {
+      "replyMentionLine": "#537FA9",
+      "replyMentionBackground": "#3B5E82",
+      "replyMentionText": "#FFFFFF",
+      "replyPreviewText": "#A2A7B1",
+      "pingMessageBackground": "#3B5E82",
+      "pingMessageBorder": "#537FA9",
+      "pingUsernameText": "#537FA9",
+      "pingUnreadBadge": "#537FA9",
+      "pingNotificationDot": "#537FA9"
+    },
+    "inputFields": {
+      "background": "#2B2D31",
+      "border": "#3B5E82",
+      "text": "#FFFFFF",
+      "placeholder": "#A2A7B1"
+    },
+    "scrollbar": {
+      "thumb": "#3B5E82",
+      "track": "#141416"
+    }
+  },
+  "icons": {
+    "pack": "Mio Haimiya Icon Pack",
+    "tint": "#537FA9",
+    "home": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/home.png",
+    "discover": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/discover.png",
+    "messages": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/messages.png",
+    "settings": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/settings.png",
+    "addServer": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/add_server.png",
+    "notification": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/notification.png",
+    "appIcon": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/icons/app_icon.png"
+  }
+}
