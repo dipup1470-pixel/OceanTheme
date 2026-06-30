@@ -1,0 +1,148 @@
+{
+  "name": "Haimiya Frost",
+  "description": "White hair \u2022 Ice blue \u2022 AMOLED \u2022 Rain Theme",
+  "authors": [
+    {
+      "name": "dipup1470-pixel"
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": [
+      "#84C8FF30"
+    ],
+    "MENTION_BACKGROUND": [
+      "#84C8FF"
+    ],
+    "TEXT_MENTION": [
+      "#84C8FF"
+    ],
+    "TEXT_DEFAULT": [
+      "#F6F8FB"
+    ],
+    "INPUT_BACKGROUND": [
+      "#08090B"
+    ],
+    "CHANNEL_ICON": [
+      "#E1E7EF"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#84C8FF"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#B8DEFF"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#5EA9FF"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#84C8FF55"
+    ],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": [
+      "#84C8FF"
+    ],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": [
+      "#EEF6FF"
+    ],
+    "BUTTON_OUTLINE_BRAND_BORDER": [
+      "#84C8FF"
+    ],
+    "INPUT_BORDER": [
+      "#84C8FF"
+    ],
+    "INPUT_BORDER_FOCUS": [
+      "#B8DEFF"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#84C8FF16"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "#84C8FF24"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#84C8FF36"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "#E1E7EF"
+    ],
+    "SCROLLBAR_THIN_TRACK": [
+      "#84C8FF20"
+    ],
+    "SCROLLBAR_AUTO_TRACK": [
+      "#84C8FF20"
+    ],
+    "FOCUS_PRIMARY": [
+      "#84C8FF"
+    ],
+    "FOCUS_SECONDARY": [
+      "#B8DEFF"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#11141A"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#11141A"
+    ]
+  },
+  "background": {
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
+    "alpha": 0.8,
+    "blur": 0
+  },
+  "rawColors": {
+    "BRAND_360": "#84C8FF",
+    "BRAND_500": "#5EA9FF",
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#F6F8FB",
+    "PRIMARY_230": "#090A0D",
+    "PRIMARY_300": "#0E1014",
+    "PRIMARY_400": "#171B22",
+    "PRIMARY_500": "#11151B",
+    "PRIMARY_600": "#090A0D",
+    "PRIMARY_700": "#060709",
+    "PRIMARY_800": "#030304",
+    "PRIMARY_900": "#000000",
+    "GREEN_360": "#78E3D0",
+    "BLUE_345": "#84C8FF",
+    "YELLOW_300": "#EAF3FF",
+    "ORANGE_345": "#B8DEFF",
+    "RED_400": "#FF728D",
+    "PLUM_1": "#F6F8FB",
+    "PLUM_3": "#84C8FF",
+    "PLUM_11": "#5EA9FF",
+    "PLUM_13": "#B8DEFF",
+    "PLUM_15": "#171B22",
+    "PLUM_16": "#EAF3FF",
+    "PLUM_17": "#090A0D",
+    "PLUM_18": "#090A0D",
+    "PLUM_19": "#171B22",
+    "PLUM_20": "#11151B",
+    "PLUM_22": "#11151B",
+    "PLUM_23": "#171B22",
+    "PLUM_24": "#171B22"
+  },
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": [
+        "#84C8FF"
+      ],
+      "StatusStreaming": [
+        "#8D7CFF"
+      ],
+      "StatusMobileOnline": [
+        "#78E3D0"
+      ],
+      "StatusDND": [
+        "#FF728D"
+      ],
+      "StatusOffline": [
+        "#8A94A3"
+      ],
+      "StatusOnline": [
+        "#78E3D0"
+      ]
+    }
+  }
+}
