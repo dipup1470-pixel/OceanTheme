@@ -1,0 +1,103 @@
+{
+  "name": "Haimiya Frost",
+  "description": "White Hair • Ice Blue • AMOLED • Glass",
+  "authors": [
+    {
+      "name": "dipup1470-pixel",
+      "id": "1502926408446509066"
+    }
+  ],
+  "spec": 2,
+
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#74B9FF33"],
+    "MENTION_BACKGROUND": ["#74B9FF"],
+    "TEXT_MENTION": ["#74B9FF"],
+    "TEXT_DEFAULT": ["#F7F9FC"],
+
+    "INPUT_BACKGROUND": ["#080A0D"],
+
+    "CHANNEL_ICON": ["#D8E2EC"],
+
+    "INTERACTIVE_NORMAL": ["#74B9FF"],
+    "INTERACTIVE_HOVER": ["#A8D8FF"],
+    "INTERACTIVE_ACTIVE": ["#5AA7FF"],
+    "INTERACTIVE_MUTED": ["#74B9FF55"],
+
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#74B9FF"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#DCEBFF"],
+    "BUTTON_OUTLINE_BRAND_BORDER": ["#74B9FF"],
+
+    "INPUT_BORDER": ["#74B9FF"],
+    "INPUT_BORDER_FOCUS": ["#A8D8FF"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#74B9FF18"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#74B9FF28"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#74B9FF40"],
+
+    "SCROLLBAR_THIN_THUMB": ["#DCEBFF"],
+    "SCROLLBAR_THIN_TRACK": ["#74B9FF22"],
+    "SCROLLBAR_AUTO_TRACK": ["#74B9FF22"],
+
+    "FOCUS_PRIMARY": ["#74B9FF"],
+    "FOCUS_SECONDARY": ["#A8D8FF"],
+
+    "BACKGROUND_FLOATING": ["#101317"],
+    "BACKGROUND_NESTED_FLOATING": ["#101317"]
+  },
+
+  "background": {
+    "url": "https://raw.githubusercontent.com/dipup1470-pixel/OceanTheme/main/6193609c-b720-4a6e-a0f2-f0c6dfe0a276-Picsart-AiImageEnhancer.jpeg",
+    "alpha": 0.82,
+    "blur": 3
+  },
+
+  "rawColors": {
+    "BRAND_360": "#74B9FF",
+    "BRAND_500": "#5AA7FF",
+
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#F3F7FC",
+    "PRIMARY_230": "#090B0F",
+    "PRIMARY_300": "#0D1117",
+    "PRIMARY_400": "#14181E",
+    "PRIMARY_500": "#0F1318",
+    "PRIMARY_600": "#090B0F",
+    "PRIMARY_700": "#06080A",
+    "PRIMARY_800": "#030405",
+    "PRIMARY_900": "#000000",
+
+    "GREEN_360": "#6CE6C3",
+    "BLUE_345": "#74B9FF",
+    "YELLOW_300": "#DCEBFF",
+    "ORANGE_345": "#A8D8FF",
+    "RED_400": "#FF6D8B",
+
+    "PLUM_1": "#F3F7FC",
+    "PLUM_3": "#74B9FF",
+    "PLUM_11": "#5AA7FF",
+    "PLUM_13": "#A8D8FF",
+    "PLUM_15": "#14181E",
+    "PLUM_16": "#DCEBFF",
+    "PLUM_17": "#090B0F",
+    "PLUM_18": "#090B0F",
+    "PLUM_19": "#14181E",
+    "PLUM_20": "#0F1318",
+    "PLUM_22": "#0F1318",
+    "PLUM_23": "#14181E",
+    "PLUM_24": "#14181E"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#74B9FF"],
+      "StatusStreaming": ["#A78BFA"],
+      "StatusMobileOnline": ["#6CE6C3"],
+      "StatusDND": ["#FF6D8B"],
+      "StatusOffline": ["#8A96A6"],
+      "StatusOnline": ["#6CE6C3"]
+    }
+  }
+}
